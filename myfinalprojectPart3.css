@@ -1,0 +1,97 @@
+.text_part_text {
+    font-size: 24px;
+}
+
+.text_part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#tick {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#openDialog {
+    background-color: #E0FFFF;
+    border-radius: 12px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    border: 3px solid #5F9EA0;
+    color: #8FBC8F;
+}
+
+#openDialog:hover {
+    background-color: #F8F8FF;
+    border-color: #C0C0C0;
+    transition: 1s ease-out 0.5s
+}
+
+.dialog_ticket {
+    position: absolute;
+    top: 30%;
+    z-index: 3;
+}
+
+.div_dialog {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+.price {
+    text-align: center;
+    font-size: 24px;
+}
+
+.dialog_error0 {
+    height: 70px;
+    width: 400px;
+    font-size: 24px;
+    color: #008080;
+    font-weight: 600;
+    text-align: center;
+    background-color: FloralWhite;
+}
+
+.error0_text {
+    margin-bottom: 15px;
+}
+
+#button_error0 {
+    font-size: 20px;
+    background-color: #E0FFFF;
+    border-radius: 12px;
+    border: 3px solid #5F9EA0;
+    color: #8FBC8F;
+}
+
+.dialog_error5 {
+    height: 70px;
+    width: 400px;
+    font-size: 24px;
+    color: #008080;
+    font-weight: 600;
+    text-align: center;
+    background-color: FloralWhite;
+}
+
+.error5_text {
+    margin-bottom: 15px;
+}
+
+#button_error5 {
+    font-size: 20px;
+    background-color: #E0FFFF;
+    border-radius: 12px;
+    border: 3px solid #5F9EA0;
+    color: #8FBC8F;
+}

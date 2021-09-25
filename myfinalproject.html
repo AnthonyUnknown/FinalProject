@@ -1,0 +1,89 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Форсаж</title>
+            <link href="myfinalproject.css" rel="stylesheet" type="text/css" />
+            <link href="myfinalprojectPart2.css" rel="stylesheet" type="text/css" />
+            <link href="myfinalprojectPart3.css" rel="stylesheet" type="text/css" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+        </head>
+    <body>
+            <div class = "list">
+                    <div class = "for_text">
+                        <div><input type="text" id = "text_content"></div>
+                        <div class="text_but">Вы можете найти нужный Вам фильм</div>
+                    </div>
+                    <div class = "film_search">
+                        <div class = "film_search1">Форсаж</div>
+                        <div class = "film_search2">Такси</div>
+                        <div class = "film_search3">Воздушный маршал</div>
+                    </div>
+                    <div class = "top_list">
+                        <div class="top_list_film">Форсаж 10</div>
+                        <div class ="film_changer">Вы можете выбрать другой фильм:</div>
+                        <div class = "film">
+                            <select name="select_film1" id="select_film">
+                                <option value="name_film">Выберите Ваш фильм!</option>
+                                <option id ="film1" value="fast_and_furios">Форсаж 10</option>
+                                <option id ="film2" value="taxi">Такси 2</option>
+                                <option id ="film3" value="fly_marshal">Воздушный маршал</option>
+                            </select>
+                        </div>
+                        <div class = "top_list_pic">
+                            <img class="poster" src="poster.jpg" alt = "" >
+                            <div class="place_poster">VOKA Cinema в ТРЦ Dana Mall, г. Минск, ул. П. Мстиславца, 11, ТРЦ «Dana Mall», 3 этаж<br><br>Ограничение: 16+<br><br>Завтра, 17 сентября / 22:00-0:15</div>
+                        </div> 
+                    </div>
+                    <div class = "middle_list">
+                        <div class="scene">Экран</div>
+                    </div>
+                  <div class = "sit">      
+                 </div>
+                    <div class="designations">
+                        <div class="designation1">
+                            <div class="designation_11">Типы мест:</div>
+                            <div class="name_designation">
+                                <div class="first_row_sit"></div>
+                                <div class="first_row_1_name">Одноместное комфортное широкое кресло с подстаканником.</div>
+                            </div>
+                        </div>    
+                        <div class="designation2">
+                            <div class="designation21">
+                                <div class="busycolor"></div>
+                                <div class="busy">Место занято</div>
+                            </div>
+                            <div class="designation22">
+                                <div class="first_row_free"></div>
+                                <div class="free">Место свободно</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_part">
+                            <span class="text_part_text"><strong>Продажа билетов онлайн прекращается за 10 минут до начала сеанса, далее билеты можно приобрести в кассах кинотеатра.</strong><br><br>
+                                1. Детский билет — для зрителей младше 7 лет на фильмы «0+» и «6+». Чтобы купить детский билет на сайте, после выбора места в кинозале на сеанс определенного фильма просто измените категорию билета со Стандартный на Детский.
+                                Дети в возрасте до 5 лет могут посетить киносеанс показа фильма, имеющего возрастную категорию «0+» бесплатно, при условии, что во время сеанса ребенок не занимает отдельное место и находится на руках у взрослого.<br>
+                                2. Скидка Red Carpet Club не предоставляется при покупке билетов на киносеансы на места повышенной комфортности.<br>
+                                3. Скидка Red Carpet Club предоставляется при приобретении не более 4 (четырех) билетов на 1 сеанс. Дополнительное количество билетов сверх четырех реализуется по цене без предоставления скидки.
+                            </span>
+                    </div>
+                    <div id="tick">
+                        <input type="button" name="ticket" id="openDialog" value="Подвертить и перейти к оплате">
+                    </div>
+                    <dialog class = "dialog_ticket">
+                        <div class="price"></div>
+                    </dialog>
+                    <dialog class = "dialog_error0">
+                        <div class = "error0_text">Количество билетов не может быть 0!</div>
+                        <input id = "button_error0" type="button" value = "Попробовать снова" name = "butt">
+                    </dialog>
+                    <dialog class = "dialog_error5">
+                        <div class = "error5_text">Количество билетов не может быть больше 5!</div>
+                        <input id = "button_error5" type="button" value = "Попробовать снова" name = "butt">
+                    </dialog>
+            </div>
+            <script src="myfinalproject1.js"></script>
+    </body>
+    </html>
