@@ -1,0 +1,123 @@
+body {
+    background: url(https://sun9-17.userapi.com/impg/c855720/v855720672/1eeb6c/ruQid69Qj7E.jpg?size=604x604&quality=96&sign=63c47d55aee389aeb98d92e90b04c145&type=album) no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: relative;
+    background-position: center top;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.for_text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.text_but {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#text_content {
+    font-size: 20px;
+    background-color:blanchedalmond;
+    color: black;
+    border-radius: 10px;
+}
+
+.film_search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: relative;
+    background-color: blanchedalmond;
+    width: 240px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 250px;
+    display: none;
+}
+
+.top_list_film {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.top_list {
+    margin-top: 20px;
+}
+
+.poster {
+    width: 100px;
+    height: 180px;
+}
+
+.top_list_pic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.place_poster {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.film_changer {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.film {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+#select_film {
+    font-size: 16px;
+    color: OldLace;
+    background-color: BurlyWood;
+    border-radius: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.color_search {
+    color: red;
+}
+
+.top_list_film:hover {
+    color:cornflowerblue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .poster {
+        width: 50px;
+        max-height: 100px;
+    }
+
+}

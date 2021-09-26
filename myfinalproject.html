@@ -3,9 +3,9 @@
         <head>
             <meta charset="UTF-8">
             <title>Форсаж</title>
-            <link href="myfinalproject.css" rel="stylesheet" type="text/css" />
-            <link href="myfinalprojectPart2.css" rel="stylesheet" type="text/css" />
-            <link href="myfinalprojectPart3.css" rel="stylesheet" type="text/css" />
+            <link href="style/myfinalproject.css" rel="stylesheet" type="text/css" />
+            <link href="style/myfinalprojectPart2.css" rel="stylesheet" type="text/css" />
+            <link href="style/myfinalprojectPart3.css" rel="stylesheet" type="text/css" />
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
@@ -17,9 +17,6 @@
                         <div class="text_but">Вы можете найти нужный Вам фильм</div>
                     </div>
                     <div class = "film_search">
-                        <div class = "film_search1">Форсаж</div>
-                        <div class = "film_search2">Такси</div>
-                        <div class = "film_search3">Воздушный маршал</div>
                     </div>
                     <div class = "top_list">
                         <div class="top_list_film">Форсаж 10</div>
@@ -27,7 +24,7 @@
                         <div class = "film">
                             <select name="select_film1" id="select_film">
                                 <option value="name_film">Выберите Ваш фильм!</option>
-                                <option id ="film1" value="fast_and_furios">Форсаж 10</option>
+                                <option id ="film1" value="fast_and_furios" selected>Форсаж 10</option>
                                 <option id ="film2" value="taxi">Такси 2</option>
                                 <option id ="film3" value="fly_marshal">Воздушный маршал</option>
                             </select>
@@ -74,6 +71,9 @@
                     </div>
                     <dialog class = "dialog_ticket">
                         <div class="price"></div>
+                        <div class = "for_but_close">
+                            <input type="button" id ="button_close_ticket" value = "Вернуться обратно">
+                        </div>                   
                     </dialog>
                     <dialog class = "dialog_error0">
                         <div class = "error0_text">Количество билетов не может быть 0!</div>
@@ -84,6 +84,6 @@
                         <input id = "button_error5" type="button" value = "Попробовать снова" name = "butt">
                     </dialog>
             </div>
-            <script src="myfinalproject1.js"></script>
+            <script src="js/myfinalproject1.js"></script>
     </body>
     </html>
